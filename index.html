@@ -26,7 +26,7 @@
                 <!-- navigation menu elements -->
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
-                        <li class="nav__item"><a href="#home" class="nav__link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>Skills</a></li>
                         <li class="nav__item"><a href="#services" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>Services</a></li>
@@ -37,6 +37,9 @@
                 </div>
 
                 <div class="nav__btns">
+                    <!-- Dark/lisght Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -94,7 +97,8 @@
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
                                     
-                                    <image class="home__blob-img" style="float:right; width:200px; height:200px;" xlink:href="assets/img/profile1.jpg"/>
+                                    <!-- <image class="home__blob-img" style="float:right; width:200px; height:200px;" xlink:href="assets/img/profile1.jpg"/> -->
+                                    <image class="home__blob-img" style="float:right; width:200px; height:200px;" xlink:href="assets/img/vnik_nye2.png"/>
                                 </g>
                             </svg>
                         </div>
@@ -847,6 +851,7 @@
                             </div>
 
                             <div>
+                                <!-- [todo] add mailing functionality, show confirmation -->
                                 <a href="#" class="button button--flex">
                                     Send Message
                                     <i class="uil uil-message button__icon"></i>
@@ -897,6 +902,9 @@
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
         
 
         <!--==================== SWIPER JS ====================-->
