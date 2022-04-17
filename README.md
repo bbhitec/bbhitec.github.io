@@ -5,13 +5,13 @@ Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorial
 
 
 ## Gains, What I've Learned
-- [x] Self-learning and polishing HTML5? and CSS3:
+- [x] Self-learning and polishing HTML5 and CSS3:
     - Basic syntax
     - Selectors, classes, attrtibutes, modifiers
 - [ ] Scripting events, animations, modals...
 - Learning …
 - Deriving …
-- [ ] swiper lib
+- [x] Swiper lib usage and configuration
 
 ## WIP
 - Initial skeleton website as per tutorial
