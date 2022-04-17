@@ -10,7 +10,7 @@
         -->
 
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -69,6 +69,18 @@
 
                         <!--Profile image under an svg blob-->
                         <div class="home__image">
+                            <!-- Custom blob -->
+                            <!-- <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M71.4,-40.6C85.2,-17.2,84.2,15.4,69.8,39.1C55.4,62.9,27.7,77.7,0.8,77.3C-26.1,76.8,-52.2,61,-65.1,38.1C-78.1,15.2,-77.9,-14.9,-64.9,-37.8C-51.8,-60.7,-25.9,-76.5,1.4,-77.3C28.8,-78.2,57.5,-64,71.4,-40.6Z" transform="translate(100 100)" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M71.4,-40.6C85.2,-17.2,84.2,15.4,69.8,39.1C55.4,62.9,27.7,77.7,0.8,77.3C-26.1,76.8,-52.2,61,-65.1,38.1C-78.1,15.2,-77.9,-14.9,-64.9,-37.8C-51.8,-60.7,-25.9,-76.5,1.4,-77.3C28.8,-78.2,57.5,-64,71.4,-40.6Z" transform="translate(100 100)" />
+                                    <image class="home__blob-img"  xlink:href="assets/img/profile1.jpg"/>
+                                </g>
+                            </svg>
+                             -->
+                            <!-- Tutorial-sourced svg image mask -->
                             <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
@@ -479,7 +491,7 @@
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
                 <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What I Offer</span>
+                <span class="section__subtitle">What I currently offer...</span>
 
                 <div class="services__container container grid">
                     <!--==================== SERVICES 1 ====================-->
@@ -607,7 +619,76 @@
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most recent work</span>
                 
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="mywork1" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <!--[todo] use this very website as a portfolio piece-->
+                                <h3 class="portfolio__title">Modern Website</h3>
+                                <p class="portfolio__description">
+                                    Website adaptable to all devices, with UI components and animated interactions.
+                                </p>
+                                <a href="" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>                        
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="mywork2" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <!--[todo] use this very website as a portfolio piece-->
+                                <h3 class="portfolio__title">Brand Design</h3>
+                                <p class="portfolio__description">
+                                    Website adaptable to all devices, with UI components and animated interactions.
+                                </p>
+                                <a href="" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>                        
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="mywork1" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <!--[todo] use this very website as a portfolio piece-->
+                                <h3 class="portfolio__title">Online Store</h3>
+                                <p class="portfolio__description">
+                                    Website adaptable to all devices, with UI components and animated interactions.
+                                </p>
+                                <a href="" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>                        
+                        </div>
+
+                    </div>
+
+                    <!-- Add Arrows to swiped section-->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination-->
+                    <div class="swiper-pagination"></div>
+
+                </div>
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
@@ -635,7 +716,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>

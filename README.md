@@ -11,7 +11,7 @@ Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorial
 - [ ] Scripting events, animations, modals...
 - Learning …
 - Deriving …
-
+- [ ] swiper lib
 
 ## WIP
 - Initial skeleton website as per tutorial
@@ -27,4 +27,4 @@ Pull the project or [view the live site](http://www.vnikolin.com/)
 ### Tools
 - [HSL calculator](https://www.w3schools.com/colors/colors_hsl.asp)
 - [Blob generator](https://www.blobmaker.app/)
-
+- [Swiper lib](https://swiperjs.com/)
