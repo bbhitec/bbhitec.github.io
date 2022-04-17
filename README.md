@@ -9,7 +9,8 @@ Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorial
     - Basic syntax
     - Selectors, classes, attrtibutes, modifiers
 - [ ] Scripting events, animations, modals...
-- Learning …
+- [ ] Preparing responsive styling …
+- [ ] testing screen sizes?
 - Deriving …
 - [x] Swiper lib usage and configuration
 
@@ -17,6 +18,10 @@ Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorial
 - Initial skeleton website as per tutorial
 - Parametrize offsets: home blob image
 - Parametrize (or remove entirely) the skills bar
+- Use efficient image formats
+- Match personal brand
+- Update relevant content: hobbies, github portfolio
+- In-code \[todos\]
 
 
 

@@ -99,7 +99,8 @@ const modalViews = document.querySelectorAll('.services__modal'),
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper('.portfolio__container', {
-    // cssMode: true,
+    // [todo] make smooth scrolling
+    cssMode: true,
     loop: true,
 
     navigation: {
