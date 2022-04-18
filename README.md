@@ -4,25 +4,27 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorials](https://youtu.be/27JtRAI3QO8)
 
 
-## Gains, What I've Learned
-- [x] Self-learning and polishing HTML5 and CSS3:
-    - Basic syntax
+## Gains
+- Self-learning and polishing HTML5 and CSS3:
+    - Basic syntax and orientation
     - Selectors, classes, attrtibutes, modifiers
-- [ ] Scripting events, animations, modals...
-- [ ] Preparing responsive styling …
-- [ ] testing screen sizes?
-- Deriving …
-- [x] Swiper lib usage and configuration
+- Scripting events, animations, modals
+- Responsive elements behavior
+- Swiper lib usage and configuration
 
 ## WIP
-- Initial skeleton website as per tutorial
-- Parametrize offsets: home blob image
-- Parametrize (or remove entirely) the skills bar
-- Use efficient image formats
-- Match personal brand
-- Update relevant content: hobbies, github portfolio
-- In-code \[todos\]
-
+[x] Initial skeleton website as per tutorial<br>
+[ ] Parametrize offsets: home blob image<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[ ] Parametrize (or remove entirely) the skills bar<br>
+[ ] Use efficient image formats?<br>
+[ ] Smooth scrolling everywhere?<br>
+[ ] Update relevant content: hobbies, github portfolio<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[ ] Match personal brand colors<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[ ] Clean up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[ ] Move the dummy site to a different location as a show-off piece<br>
+[ ] Treat in-code \[todos\]<br>
+[ ] testing screen sizes?<br>
+<br>
 
 
 
