@@ -210,3 +210,23 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== CONTACT FORM SEND  ====================*/
+
+/**
+ * Send an email from a filled form
+ */
+ function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "",
+        Password : "",
+        To : '',
+        From : document.getElementById("contact_email").value,
+        Subject : "vnikolin.com - New Contact Forn Inquiry",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+ }

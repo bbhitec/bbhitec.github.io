@@ -13,13 +13,15 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Vovacuna</title>
+        <title>Vladimir Nikolin - Software Engineer</title>
+        <link rel="icon" type="image/x-icon" href="/assets/img/Flash.ico">
+
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Vovacuna</a>
+                <a href="#" class="nav__logo">Vladimir</a>
 
                 <!-- navigation menu elements -->
                 <div class="nav__menu" id="nav-menu">
@@ -27,7 +29,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>Skills</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>Services</a></li>
+                        <!-- <li class="nav__item"><a href="#services" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>Services</a></li> -->
                         <li class="nav__item"><a href="#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>Portfolio</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>Contact</a></li>
                     </ul>
@@ -59,12 +61,12 @@
                             <a href="https://github.com/bbhitec/" target="_blank" class="home__social-icon">
                                 <i class="uil uil-github"></i>
                             </a>
-                            <a href="https://www.facebook.com/vovacuna/" target="_blank" class="home__social-icon">
+                            <!-- <a href="https://www.facebook.com/vovacuna/" target="_blank" class="home__social-icon">
                                 <i class="uil uil-facebook"></i>
                             </a>
                             <a href="https://www.instagram.com/vovacuna_lmdc/" target="_blank" class="home__social-icon">
                                 <i class="uil uil-instagram"></i>
-                            </a>
+                            </a> -->
                         </div>
 
                         <!--Profile image under an svg blob-->
@@ -102,7 +104,7 @@
                         </div> -->
 
                         <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Vova</h1>
+                            <h1 class="home__title">Hi, I'm Vladimir</h1>
                             <h3 class="home__subtitle">Software Engineer</h3>
                             <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
                             <a href="#contact" class="button button--flex">
@@ -735,8 +737,10 @@
                             <i class="uil uil-envelope contact__icon"></i>
 
                             <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">mymail@gmail.com</span>
+                                <a href="mailto:vnikolin@latino-mind.com">
+                                    <h3 class="contact__title">Email</h3>
+                                    <span class="contact__subtitle">vnikolin@latino-mind.com</span>
+                                </a>
                             </div>
                         </div>
 
@@ -745,38 +749,41 @@
 
                             <div>
                                 <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Earth - Solar System</span>
+                                <span class="contact__subtitle">Haifa - Israel</span>
                             </div>
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <!-- [todo] complete the contact form or leave the details only... -->
+                    <form onsubmit="sendEmail(); reset(); return false;" action="" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" id="contact_name" placeholder="Nice to meet you!" class="contact__input" required>
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" id="contact_email" placeholder="your@email.com" class="contact__input" required>
                             </div>
                         </div>
-                        <div class="contact__content">
+                        <!-- <div class="contact__content">
                             <label for="" class="contact__label">Project</label>
                             <input type="text" class="contact__input">
-                        </div>
+                        </div> -->
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message></label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="contact_message" placeholder="Hi there, let's collaborate!" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
 
                         
                         <div>
                             <!-- [todo] add mailing functionality, show confirmation -->
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
+                            <!-- <button type="submit"> -->
+                                <a href="mailto:you@yourdmainhere.com" class="button button--flex">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </a>
+                            <!-- </button> -->
                         </div>                        
                     </form>
 
@@ -790,13 +797,13 @@
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Vladimir Nikolin</h1>
-                        <span class="footer__subtitle">Event Producer<br>Software Engineer</span>
+                        <span class="footer__subtitle">Social Media Maketer<br>Event Producer<br>Software Engineer</span>
                     </div>
 
                     <ul class="footer__links">
                         <li><a href="#services" class="footer__link">Services</a></li>
                         <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#contact" class="footer__link">Contact Me</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
                     </ul>
 
                     <div class="footer__socials">
@@ -824,8 +831,10 @@
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
         
+        <!--==================== SMTPJS: sending emails from contact form ====================-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-        <!--==================== SWIPER JS ====================-->
+        <!--==================== SWIPER JS: interactive swiping ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
