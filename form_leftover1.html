@@ -1,0 +1,32 @@
+<!-- [todo] complete the contact form or leave the details only... -->
+                    <form onsubmit="sendEmail(); reset(); return false;" action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" id="contact_name" placeholder="Nice to meet you!" class="contact__input" required>
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" id="contact_email" placeholder="your@email.com" class="contact__input" required>
+                            </div>
+                        </div>
+                        <!-- <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div> -->
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="contact_message" placeholder="Hi there, let's collaborate!" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        
+                        <div>
+                            <!-- [todo] add mailing functionality, show confirmation -->
+                            <!-- <button type="submit"> -->
+                                <a href="mailto:you@yourdmainhere.com" class="button button--flex">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </a>
+                            <!-- </button> -->
+                        </div>                        
+                    </form>
