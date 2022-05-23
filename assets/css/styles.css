@@ -19,7 +19,8 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: rgb(240, 237, 213);
+    --container-color: hsl(var(--hue-color), 60%, 99%);
+    --shadowed-bg-color: rgba(0,0,0,.5);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -426,7 +427,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,.5); /*[todo] parametrize*/
+  background-color: var(--shadowed-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -630,6 +631,11 @@ img {
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+}
+
+.qualification__logo {
+  width: 75%;
+  padding: 1rem 0rem .5rem 0;
 }
 
 .qualification__subtitle {
