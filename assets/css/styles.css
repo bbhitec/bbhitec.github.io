@@ -125,6 +125,7 @@ body {
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  /* text-transform: uppercase; */
 }
 
 ul {
@@ -642,7 +643,7 @@ img {
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-0-5);
 }
 
 .qualification__calendar {
