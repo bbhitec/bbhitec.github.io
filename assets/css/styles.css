@@ -129,8 +129,10 @@ body {
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-  /* [wip] make a job title sub-class */
-  /* text-transform: uppercase; */
+}
+h3 {
+  /* making only h3 as all caps */
+  text-transform: uppercase;
 }
 
 ul {
@@ -797,7 +799,7 @@ img {
 
 .project__bg{
   background-color: var(--first-color-second);
-  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .project__title{
@@ -818,47 +820,6 @@ img {
   width: 232px;
   justify-self: center;
 }
-
-
-/*==================== TESTIMONIAL ====================*/
-/* .testimonial__data,
-.testimonial__header{
-  display: flex;
-}
-
-.testimonial__data{
-  justify-content: space-between;
-  mask-border: var(--mb-1);
-}
-
-.testimonial__img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: var(--mb-0-75) ;
-}
-
-.testimonial__name {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-}
-
-.testimonial__client {
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-
-.testimonial__description {
-  margin-bottom: var(--mb-2-5);
-}
-
-.testimonial__icon-star {
-  color: var(--first-color);
-}
-
-.swiper-container .swiper-pagination-testimonial{
-  bottom: 0;
-} */
 
 
 /*==================== CONTACT ME ====================*/
@@ -932,9 +893,8 @@ img {
 }
 
 .footer__links{
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.5rem;
+  display: grid;
+  row-gap: 1rem;
 }
 
 .footer__link:hover{
@@ -943,7 +903,7 @@ img {
 }
 
 .footer__socials{
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-right: var(--mb-1-5);
 }
 
