@@ -183,8 +183,10 @@ window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
-const iconTheme = 'uil-sun'
+      darkTheme = 'dark-theme'
+      iconTheme = 'uil-sun'
+      darkLogo = 'dark_logo'
+      qualificationLogos = document.querySelectorAll('.qualification__logo')
 
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
@@ -206,9 +208,16 @@ themeButton.addEventListener('click', () => {
     // Add or remove the dark / icon theme
     document.body.classList.toggle(darkTheme)
     themeButton.classList.toggle(iconTheme)
+
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
+
+       
+    qualificationLogos.forEach((qualificationLogo) =>{
+        qualificationLogo.classList.remove(darkLogo)
+      })
+
 })
 
 

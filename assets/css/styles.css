@@ -1,5 +1,39 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?oebnte');
+  src:  url('fonts/icomoon.eot?oebnte#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oebnte') format('truetype'),
+    url('fonts/icomoon.woff?oebnte') format('woff'),
+    url('fonts/icomoon.svg?oebnte#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lmdc1:before {
+  content: "\e900";
+}
+.icon-intel1:before {
+  content: "\e901";
+}
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -640,12 +674,18 @@ img {
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  text-transform: uppercase; /* this will match cv style */
 }
 
 .qualification__logo {
   width: 75%;
   font-size: 20rem;
   padding: 1rem 0rem .5rem 0;
+  /* filter: invert(100%); */
+}
+
+.dark_logo {
+  filter: invert(100%);
 }
 
 .qualification__subtitle {
