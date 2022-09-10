@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Vladimir Nikolin - Software Engineer</title>
-        <!-- <link rel="icon" type="image/x-icon" href="/assets/img/Flash.ico"> -->
+
+        <!-- pb logo as a favicon -->
         <link rel="icon" type="image/x-icon" href="/assets/img/vn_icon6.png">
 
     </head>
@@ -39,7 +40,7 @@
                 </div>
 
                 <div class="nav__btns">
-                    <!-- [todo] clean properly -->
+                    <!-- [todo] clean properly - consider only one mode -->
                     <!-- Dark/light Theme change button -->
                     <i class="uil uil-moon change-theme" id="theme-button"></i>
 
@@ -73,6 +74,9 @@
                         </div>
 
                         <!--Profile image under an svg blob-->
+                        <div class="home__img">
+                            <img src="assets/img/profile1b.jpg" alt="" class="about__img">
+                        </div>
                         <!--[todo] finalize profile pic-->
                         <!-- <div class="home__img"> -->
                             <!-- Custom blob -->
@@ -107,7 +111,7 @@
                         </div> -->
 
                         <div class="home__data">
-                            <h1 class="home__title">Hey, I'm Vova</h1>
+                            <h1 class="home__title">Hey, I'm Vladimir</h1>
                             <h3 class="home__subtitle">Software Engineer</h3>
                             <p class="home__description">Highly motivated engineer with versatile software development, hardware simulation and validation experience.</p>
                             <a href="#contact" class="button button--flex">
@@ -133,8 +137,10 @@
                 <span class="section__subtitle">My introduction</span>
 
                 <div class="about__container container grid">
-                    <img src="assets/img/profile1.jpg" alt="" class="about__img">
-                    <!-- <img src="assets/img/vovapose2.jpg" alt="" class="about__img"> -->
+                    <!-- profile photo to match personal brand -->
+                    <!-- [todo] finalize slideshow -->
+                    <!-- <img src="assets/img/profile1b.jpg" alt="" class="about__img"> -->
+                    <img src="assets/img/vovapose2.jpg" alt="" class="about__img">
 
                     <div class="about__data">
                         <p class="about__description">Driven and motivated engineer with 5 years of experience in advanced software and hardware development, a proven ability for strong teamwork, application of dedication and assertiveness with a constant strife for excellence and providing a quality product.</p>
@@ -365,8 +371,8 @@
                             <div class="qualification__data">
                                 <div>
                                     
-                                    <h3 class="qualification__title" style="text-transform: uppercase;">Digital Marketing</h3>
-                                    <span class="qualification__subtitle">Self Employed</span>
+                                    <h3 class="qualification__title" style="text-transform: uppercase;">Digital Marketing Specialist</h3>
+                                    <span class="qualification__subtitle">Latino Mind Dance Company<br>-Brand marketing<br>-Event production</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2019-Current
@@ -375,14 +381,8 @@
                                         Dream business
                                     </div>
                                     
-                                    <!-- [todo] make logos via custom svg fonts? -->
-                                    <!-- <span class="icon-intel1"></span> -->
-                                    <!-- <i class="icon-intel1"  style="color:white; font-size:5rem;"></i> -->
-
-
                                     <!-- we recolor images with style filter -->
-                                    <!-- [here][todo] add property on night mode -->
-                                    <img src="assets/img/logo_lmdc_bw.png" class="qualification__logo" alt="Latino Mind"></i>
+                                    <img src="assets/img/logo_lmdc_bw.webp" class="qualification__logo" alt="Latino Mind"></i>
                                 </div>
 
                                 <div>
@@ -404,10 +404,12 @@
                                     <h3 class="qualification__title">Leave of Absence</h3>
                                     <span class="qualification__subtitle">Down Under<br>-Vanlifing<br>-Volcano climbing<br>-Onceinalifetiming</span>
                                     <div class="qualification__calendar">
+                                        
                                         <i class="uil uil-calendar-alt"></i>
                                         2018-2019
                                     </div>
-                                    <i class="uil uil-bus-school" style="font-size:6rem;" class="qualification__logo"></i> <!-- color:white; -->
+                                    <!-- [todo] invert leaves logos grey on some screens? -->
+                                    <img src="assets/img/caravan.svg" style="font-size:6rem; color:white;" class="qualification__logo"></i>
                                 </div>                                
                             </div>
                             
@@ -415,8 +417,8 @@
                             <div class="qualification__data">
 
                                 <div>
-                                    <h3 class="qualification__title">Hardware Engineer</h3>
-                                    <span class="qualification__subtitle">Intel Israel</span>
+                                    <h3 class="qualification__title">Software Engineer</h3>
+                                    <span class="qualification__subtitle">Intel Israel<br>-Building IA Validation models<br></span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2016-2018
@@ -445,12 +447,12 @@
 
                                 <div>
                                     <h3 class="qualification__title">Software Developer Student</h3>
-                                    <span class="qualification__subtitle">Intel Israel</span>
+                                    <span class="qualification__subtitle">Intel Israel<br>-Imaging division development</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2012-2017
                                     </div>
-                                    <img src="assets/img/logo_intel.png" class="qualification__logo" alt="Intel Israel"></i>
+                                    <img src="assets/img/intel.svg" class="qualification__logo" alt="Intel Israel"></i>
                                 </div>
 
                                 
@@ -460,29 +462,30 @@
                             <div class="qualification__data">
                                 <div>                                    
                                     <h3 class="qualification__title">B.Sc. Software Engineering</h3>
-                                    <span class="qualification__subtitle">ORT Braude College<br> Karmiel, Israel</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2011-2016
                                     </div>
-                                    <img src="assets/img/logo_braude.png" class="qualification__logo" alt="ORT Braude College"></i>
+                                    <span class="qualification__subtitle">ORT Braude College<br> Karmiel, Israel<br>-Dean's Honors<br>-Excellence program</span>
+                                    
+                                    <!-- -Dean's Honors<br>-Excellence program -->
+                                    <img src="assets/img/logo_braude.webp" class="qualification__logo" alt="ORT Braude College"></i>
                                 </div>
 
                                 <!-- each qualification data will have a round point and a line associated with it -->
                                 <div>
                                     <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
+                                    <!-- <span class="qualification__line"></span> -->
                                 </div>
 
                             </div>
 
                             <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification__data">
+                            <!-- <div class="qualification__data">
                                 <div></div>
 
                                 <div>
                                     <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
                                 </div>
 
                                 <div>
@@ -493,7 +496,7 @@
                                         2016
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
 

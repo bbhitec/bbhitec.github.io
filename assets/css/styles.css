@@ -165,11 +165,6 @@ h1, h2, h3, h4 {
   font-weight: var(--font-semi-bold);
 }
 
-h3 {
-  /* making only h3 as all caps */
-  /* text-transform: uppercase; */
-}
-
 ul {
   list-style: none;
 }
@@ -681,9 +676,9 @@ img {
   width: 75%;
   font-size: 20rem;
   padding: 1rem 0rem .5rem 0;
-  /* filter: invert(100%); */
 }
 
+/* use this class to recolor logos in dark mode */
 .dark_logo {
   filter: invert(100%);
 }
@@ -1096,6 +1091,11 @@ img {
   .home__img{
     order: 1;
     justify-self: center;
+    margin-top: var(--mb-3);
+
+    /* horizontal flip */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 
   .about__container,

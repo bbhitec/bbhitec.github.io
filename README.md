@@ -12,7 +12,6 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 ### Other Gains
 - Swiper lib usage and configuration
 - Using Git submodules (child website)
-- Creating and using custom SVG fonts
 - [ ] [Optimizing site speed issues](https://pagespeed.web.dev/report?url=http%3A%2F%2Fwww.vnikolin.com%2F&form_factor=mobile)<br>
 
 ### Skills stack
