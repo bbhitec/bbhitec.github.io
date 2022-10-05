@@ -200,8 +200,10 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: var(--title-color);
-  font-weight: var(--font-medium);
+  /* color: var(--title-color); */
+  color: var(--first-color);
+  /* font-weight: var(--font-medium); */
+  font-weight: var(--font-semi-bold);
 }
 
 .nav__toggle:hover,
