@@ -59,6 +59,17 @@
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
+
+    /*========== Sizes parameters ==========*/
+    --large-device-min-width: 968px;
+    --default-max-width: 968px;
+    --default-container-max-width: 768px;
+    --small-device-max-width: 767px;
+    
+
+    /*========== Various ==========*/
+    --default-transition: .3s;
+    --longer-transition: .4s;
 }
 
 /* Font size for large devices */
@@ -169,7 +180,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
+  max-width: var(--default-container-max-width);
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -414,6 +425,7 @@ img {
 
 .button--small {
   padding: .75rem 1rem;
+  margin: 0.1rem;
 }
 
 .button--link {
@@ -913,7 +925,7 @@ img {
 }
 
 .footer__socials{
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-right: var(--mb-1-5);
 }
 

@@ -116,24 +116,6 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 });
 
 
-/*==================== TESTIMONIAL ====================*/
-// let swiperTestimonial = new Swiper('.testimonial__container', {
-//     loop: true,
-//     grabCursor: true,
-//     spaceBetween: 48, /*[todo] parametrize*/
-
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//       dynamicBullets: true,
-//     },
-//     breakpoints:{
-//         568:{
-//             slidesPerView: 2,            
-//         }
-//     }
-// });
-
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
@@ -233,21 +215,3 @@ themeButton.addEventListener('click', () => {
 })
 
 
-/*==================== CONTACT FORM SEND  ====================*/
-
-/**
- * Send an email from a filled form
- */
- function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "",
-        Password : "",
-        To : '',
-        From : document.getElementById("contact_email").value,
-        Subject : "vnikolin.com - New Contact Forn Inquiry",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
- }
