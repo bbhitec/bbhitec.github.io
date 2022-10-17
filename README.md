@@ -12,27 +12,23 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 ### Other Gains
 - Swiper lib usage and configuration
 - Using Git submodules (child website)
-- [ ] [Optimizing site speed issues with Lighthouse audit](https://pagespeed.web.dev/report?url=http%3A%2F%2Fwww.vnikolin.com%2F&form_factor=mobile)<br>
+- [Optimizing site speed issues with Lighthouse audit](https://pagespeed.web.dev/report?url=http%3A%2F%2Fwww.vnikolin.com%2F&form_factor=mobile)<br>
 
 ### Skills stack
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-## WIP
+## WIP and Wish list
 [x] Initial skeleton website as per tutorial<br>
-[ ] Parametrize offsets: home blob image<br>
-[ ] Slide-reveal portions on scroll
-[ ] Use lazy load
+[x] Parametrize cv link?<br>
+[x] Use lazy load<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[ ] Parametrize (or remove entirely) the skills bar<br>
-[ ] Use efficient image formats?<br>
+[x] Use efficient image formats?<br>
 [ ] Smooth scrolling everywhere?<br>
-[ ] Update relevant content: hobbies, github portfolio<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ ] Match personal brand colors<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ ] Clean up<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ ] Move the dummy site to a different location as a show-off piece<br>
-[ ] Treat in-code \[todos\]<br>
-[ ] testing screen sizes?<br>
+[ ] Design matching personal brand<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[x] Move the dummy site to a different location as a show-off piece<br>
+[x] testing screen sizes<br>
 <br>
 
 
