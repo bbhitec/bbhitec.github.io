@@ -172,9 +172,9 @@
 
                         <div class="about__buttons">
                             <!--[bp] routing to a google-drivve stored cv for concurrency. some companies might not like it-->
-                            <!--[todo] parametrize the link -->
+                            <!--[todo] parametrize the url -->
                             <a download="" href="https://drive.google.com/file/d/1uLTCMiX2hf9VowlmzzSNOlNT7vU62zYx/"  target="_blank" class="button button--flex">
-                                Download CV <i class="uil uil-download-alt button__icon"></i>
+                                Download CV <i class="uil uil-file button__icon"></i>
                             </a>
 
                         </div>
@@ -378,18 +378,20 @@
                             <div class="qualification__data">
                                 <div>
                                     
-                                    <h3 class="qualification__title" style="text-transform: uppercase;">Digital Marketing Specialist</h3>
-                                    <span class="qualification__subtitle">Latino Mind Dance Company<br>-Brand marketing<br>-Event production</span>
+                                    <h3 class="qualification__title" style="text-transform: uppercase;">BUSINESS & MARKETING MANAGER</h3>
+                                    <span class="qualification__subtitle">Latino Mind Dance Company<br>-Event production<br>-Digital marketing</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2019-Present
                                         <br>
                                         <i class="uil uil-heart"></i>
-                                        Dream business
+                                        Dream Business
                                     </div>
                                     
                                     <!-- we recolor images with style filter -->
-                                    <img src="assets/img/logo_lmdc_bw.webp" class="qualification__logo" alt="Latino Mind" loading="lazy"></i>
+                                    <a href="https://www.latino-mind.com/" target="_blank">
+                                        <img src="assets/img/logo_lmdc_bw.webp" class="qualification__logo" alt="Latino Mind" loading="lazy"></i>
+                                    </a>
                                 </div>
 
                                 <div>
@@ -415,8 +417,10 @@
                                         <i class="uil uil-calendar-alt"></i>
                                         2018-2019
                                     </div>
-                                    <!-- [todo] invert leaves logos grey on some screens? -->
-                                    <img src="assets/img/caravan.svg" style="font-size:6rem; color:white;" class="qualification__logo" alt="Vanlife" loading="lazy"></i>
+                                    <!-- [todo] invert makes logos grey on some screens? -->
+                                    <a href="https://www.instagram.com/p/Bz6PU1jBm3C/" target="_blank">
+                                        <img src="assets/img/caravan.svg" style="font-size:6rem; color:white;" class="qualification__logo" alt="Vanlife" loading="lazy"></i>
+                                    </a>
                                 </div>                                
                             </div>
                             
@@ -468,7 +472,7 @@
                             <!--==================== QUALIFICATION 1 ====================-->
                             <div class="qualification__data">
                                 <div>                                    
-                                    <h3 class="qualification__title">B.Sc. Software Engineering</h3>
+                                    <h3 class="qualification__title_nocap">B.Sc. SOFTWARE ENGINEER</h3>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2011-2016
@@ -534,6 +538,7 @@
                                     <i class="uil uil-github-alt button__icon"></i>
                                 </a>
                                 <!-- [todo] use the live demo here -->
+                                <!-- [todo] implement in pyscript -->
                                 <!-- <a href="https://github.com/bbhitec/flappy_pygame" target="_blank" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-play button__icon"></i>
@@ -548,7 +553,7 @@
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Brand Design - Caramelo Festival</h3>
                                 <p class="portfolio__description">
-                                    A complete branding strategy for a new Latin dance festival.
+                                    A complete branding and marketing strategy for a new school Latin dance festival.
                                 </p>
                                 <a href="https://www.instagram.com/caramelofestival/" target="_blank" class="button button--flex button--small portfolio__button">
                                     Instagram
@@ -601,15 +606,15 @@
                         <div class="project__data">
                             <h2 class="project__title">Have an exciting project idea?</h2>
                             <p class="project__description">Contact me for a collaboration chat ;)</p>
-                            <!-- <a href="#contact" class="button button--flex button--white">
+                            <a href="#contact" class="button button--flex button--white">
                                 Contact Me
                                 <i class="uil uil-message project__icon button__icon"></i>
-                            </a> -->
+                            </a>
                         </div>
 
                         <img src="assets/img/me2.webp" alt="" class="project__img" alt="Vladimir Nikolin BSc. SW-Eng" loading="lazy">
                     </div>
-                </div>                
+                </div>
             </section>
 
 
@@ -620,26 +625,33 @@
 
                 <div class="contact__container container grid">
                     <div>
-
+                
                         <!-- [mst] add phone only if needed -->
-                        <!-- <div class="contact__information">
-                            <i class="uil uil-phone contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Call Me</h3>
-                                <span class="contact__subtitle">999-888-777</span>
+                        <a href="https://api.whatsapp.com/send?phone=972545226193&text=Hey!">
+                            <div class="contact__information">
+                
+                                <i class="uil uil-phone contact__icon"></i>
+                
+                                <div>
+                                    <h3 class="contact__title">Text Me</h3>
+                                    <span class="contact__subtitle">
+                                        +972 545 226193
+                                    </span>
+                                </div>
                             </div>
-                        </div> -->
-
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-                            <div>
-                                <a href="mailto:vnikolin@latino-mind.com">
+                        </a>
+                
+                
+                        <a href="mailto:vnikolin@latino-mind.com">
+                            <div class="contact__information">
+                                <i class="uil uil-envelope contact__icon"></i>
+                                <div>
                                     <h3 class="contact__title">Email</h3>
                                     <span class="contact__subtitle">vnikolin@latino-mind.com</span>
-                                </a>
+                                </div>
                             </div>
-                        </div>
-
+                        </a>
+                
                         <div class="contact__information">
                             <i class="uil uil-map-marker contact__icon"></i>
                             <div>
@@ -647,12 +659,9 @@
                                 <span class="contact__subtitle">Haifa - Israel</span>
                             </div>
                         </div>
-
-                        <a download="" href="https://drive.google.com/file/d/1uLTCMiX2hf9VowlmzzSNOlNT7vU62zYx/"  target="_blank" class="button button--flex">
-                            Download CV <i class="uil uil-download-alt button__icon"></i>
-                        </a> 
+                
                     </div>
-
+                
                 </div>
             </section>
         </main>
@@ -663,7 +672,7 @@
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Vladimir Nikolin</h1>
-                        <span class="footer__subtitle">Social Media Maketing<br>Event Production<br>Software Development</span>
+                        <span class="footer__subtitle">Digital Marketing<br>Event Production<br>Software Development</span>
                     </div>
 
                     <ul class="footer__links">
@@ -678,6 +687,9 @@
                         </a>
                         <a href="https://github.com/bbhitec/" target="_blank" class="footer__socials-icon">
                             <i class="uil uil-github"></i>
+                        </a>
+                        <a href="https://www.youtube.com/vovacuna/" target="_blank" class="footer__socials-icon">
+                            <i class="uil uil-youtube"></i>
                         </a>
                         <a href="https://www.facebook.com/vovacuna/" target="_blank" class="footer__socials-icon">
                             <i class="uil uil-facebook"></i>

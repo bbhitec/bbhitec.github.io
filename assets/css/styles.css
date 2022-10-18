@@ -211,9 +211,7 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  /* color: var(--title-color); */
-  color: var(--first-color);
-  /* font-weight: var(--font-medium); */
+  color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -238,7 +236,7 @@ img {
       padding: 2rem 1.5rem 4rem;
       box-shadow: 0 -1px 4px rgba(0,0,0,.15);
       border-radius: 1.5rem 1.5rem 0 0;
-      transition: .3s;
+      transition: var(--default-transition);
   }
 }
 
@@ -654,6 +652,12 @@ img {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   text-transform: uppercase; /* this will match cv style */
+}
+
+.qualification__title_nocap {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  /* text-transform: uppercase; this will match cv style */
 }
 
 .qualification__logo {

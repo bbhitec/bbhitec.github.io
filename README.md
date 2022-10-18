@@ -39,8 +39,8 @@ Pull the project or [view the live site](http://www.vnikolin.com/)
 ## Sources
 - Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorials](https://youtu.be/27JtRAI3QO8)
 - Lynda.com - CSS: Core conceps course
+- Various YouTube tutorials and tips
 
 ### Tools
 - [HSL calculator](https://www.w3schools.com/colors/colors_hsl.asp)
-- [Blob generator](https://www.blobmaker.app/)
 - [Swiper lib](https://swiperjs.com/)
