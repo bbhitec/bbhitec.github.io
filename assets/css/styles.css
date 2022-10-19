@@ -70,6 +70,8 @@
     /*========== Various ==========*/
     --default-transition: .3s;
     --longer-transition: .4s;
+    --icon-size-home: 1.4rem;
+    --icon-size-footer: 1.8rem;
 }
 
 /* Font size for large devices */
@@ -312,7 +314,7 @@ img {
 }
 
 .home__social-icon {
-  font-size: 1.25rem;
+  font-size:  var(--icon-size-home);
   color: var(--first-color);
 }
 
@@ -364,7 +366,7 @@ img {
 
 .home__scroll-button {
   color: var(--first-color);
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .home__scroll-button:hover {
@@ -404,7 +406,7 @@ img {
 .button__icon {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .button--white{
@@ -455,7 +457,7 @@ img {
   z-index: var(--z-modal);
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .services__modal-content {
@@ -572,7 +574,7 @@ img {
 
 .skills__arrow {
   margin-left: auto;
-  transition: .4s;
+  transition: var(--longer-transition);
 }
 
 .skills__name {
@@ -723,7 +725,7 @@ img {
   padding: 3.5rem .5rem 1.25rem 1.5rem;
   border-radius: .25rem;
   box-shadow: 0 2px 4px rgba(0,0,0,.15);
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .services__content:hover {
@@ -825,7 +827,7 @@ img {
 
 .project__bg{
   background-color: var(--first-color-second);
-  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
 .project__title{
@@ -925,17 +927,17 @@ img {
 
 .footer__link:hover{
   color: var(--first-color-lighter);
-  transition: .4s;
+  transition: var(--longer-transition);
 }
 
 .footer__socials{
-  font-size: 2.5rem;
+  font-size: var(--icon-size-footer);
   margin-right: var(--mb-1-5);
 }
 
 .footer__socials-icon:hover{
   color: var(--first-color-lighter);
-  transition: .4s;
+  transition: var(--longer-transition);
 }
 
 .footer__copy{
@@ -963,7 +965,7 @@ img {
   padding: 0 .3rem;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
-  transition: .4s;
+  transition: var(--longer-transition);
 }
 
 .scrollup:hover{
