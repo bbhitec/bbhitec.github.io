@@ -499,13 +499,14 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
-  border-radius: .5rem;
+  border-radius: .7rem;
   justify-self: center;
   align-self: center;
 }
 
 .about__description {
-  text-align: center;
+  font-size: var(--small-font-size);
+  text-align: justify;
   margin-bottom: var(--mb-2-5);
 
 }
@@ -1183,7 +1184,7 @@ img {
   }
 
   .about__description{
-    text-align: initial;
+    text-align: justify;
   }
 
   .about__info{
