@@ -1,7 +1,7 @@
 # Personal Landing Page  
 A trendy simple landing page for self learning and future branding purposes.<br>
 
-
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 ## Gains
 - Self-learning and polishing HTML5 and CSS3
@@ -23,7 +23,8 @@ A trendy simple landing page for self learning and future branding purposes.<br>
 [ ] Broaden skills section
 [ ] REVISE: About intro and pic
 
-
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="vnikolin" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://il.linkedin.com/in/vnikolin?trk=profile-badge">Vladimir N.</a></div>
+              
 <br>
 
 
