@@ -217,14 +217,16 @@ themeButton.addEventListener('click', () => {
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '60px',
-    duration: 2500,
+    distance: '50px',
+    duration: 1500,
     delay: 400,
     // reset: true /* an option to repeat animations */
 })
 
 // apply animation over elements
-sr.reveal(`.home__img`)
-
+sr.reveal(`.home__title, .home__subtitle, .home__description, .portfolio__container `, {interval: 200})
+sr.reveal(`.button__contact, .button__cv, .qualification__logo`, {origin: 'bottom'})
+sr.reveal(`.home__img, .about__description, .about__info`, {origin: 'right', interval: 100})
+sr.reveal(`.about__img, .home__social, .contact__information`, {origin: 'left'})
 
 
