@@ -6,9 +6,13 @@ A trendy simple landing page for self learning and future branding purposes.<br>
 ## Gains
 - Self-learning and polishing HTML5 and CSS3
 - Responsive elements behavior, various device testing
+[ ] - Scrolling animation library
 ### Other Gains
 - Using Git submodules (a child website)
 - [Optimizing site speed issues with Lighthouse audit](https://pagespeed.web.dev/report?url=http%3A%2F%2Fwww.vnikolin.com%2F&form_factor=mobile)<br>
+    - Use of efficient image formats
+    - Lazy loading sections
+- Open Graph meta tags
 
 ### Skills stack
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -18,14 +22,7 @@ A trendy simple landing page for self learning and future branding purposes.<br>
 ## Next Up
 [x] Initial skeleton website as per tutorial<br>
 [x] Design matching personal brand<br>
-[x] Use efficient image formats?<br>
-[ ] REVISE: Use of lazy load<br>
-[ ] Broaden skills section
-[ ] REVISE: About intro and pic
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="vnikolin" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://il.linkedin.com/in/vnikolin?trk=profile-badge">Vladimir N.</a></div>
-              
-<br>
+[ ] Broaden skills section<br>
 
 
 
