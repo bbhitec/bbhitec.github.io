@@ -297,11 +297,13 @@ img {
 }
 
 /*==================== HOME ====================*/
-.home__container {
+.home__container,
+.error__container {
   gap: 1rem;
 }
 
-.home__content {
+.home__content,
+.error__content {
   grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
   align-items: center;
@@ -340,23 +342,27 @@ img {
   /* transform: translateX(-5px); */
 }
 
-.home__data {
+.home__data,
+.error__data {
   grid-column: 1/3;
 }
 
-.home__title {
+.home__title,
+.error__title{
   /* font-size: var(--big-font-size); */
   font-size: var(--h1-font-size);
 }
 
-.home__subtitle {
+.home__subtitle,
+.error__subtitle {
   font-size: var(--h3-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
 
-.home__description {
+.home__description,
+.error__description {
   margin-bottom: var(--mb-2);
 }
 

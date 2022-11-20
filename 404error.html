@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio landing page.">
+    <meta name="author" content="vnikolin">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.vnikolin.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vladimir Nikolin - Software Engineer">
+    <meta property="og:description" content="Welcome to my portfolio site. Feel free to look around!">
+    <meta property="og:image" content="https://www.vnikolin.com/assets/img/vovapose2.webp">
+    
+    
+    <!--==================== UNICONS ====================-->
+    <!-- [bp] configuring lazy load as speed optimization -->
+    <link rel="preload" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></noscript>
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="preload" href="assets/css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/swiper-bundle.min.css"></noscript>
+
+    <!--==================== SCROLLREVEAL CSS ====================-->
+    <!-- online library -->
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <!-- locally stored -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    
+    <!--==================== CSS ====================-->
+    <link rel="preload" href="assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/styles.css" ></noscript>
+
+    <title>Vladimir Nikolin - Software Engineer</title>
+
+    <!-- pb logo as a favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/img/vn_icon3.webp">
+
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">vn</a>                
+
+            <!-- navigation menu elements -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
+                    <li class="nav__item"><a href="index.html#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>Portfolio</a></li>
+                    <li class="nav__item"><a href="index.html#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>Contact</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Dark/light Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+            
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="error section" id="home">
+            <div class="error__container container grid">
+                <div class="error__content grid">
+                    <div class="error__data">
+                        <h1 class="error__title">Oops!</h1>
+                        <h3 class="error__subtitle">The page you were looking for is not found!</h3>
+                        <p class="error__description">Please check the address or return to the home page.</p>
+                        <a href="index.html" class="button button--flex button__error">
+                            Back to Homepage <i class="uil uil-home button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Vladimir Nikolin</h1>
+                    <span class="footer__subtitle">Event Production<br>Digital Marketing<br>Software Development</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li><a href="index.html#about" class="footer__link">About</a></li>
+                    <li><a href="index.html#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+
+                <div class="footer__socials">
+                    <span class="footer__subtitle">Social<br></span>
+                    <a href="https://www.linkedin.com/in/vnikolin/" target="_blank" class="footer__socials-icon">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/bbhitec/" target="_blank" class="footer__socials-icon">
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/vovacuna/" target="_blank" class="footer__socials-icon">
+                        <i class="uil uil-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/vovacuna/" target="_blank" class="footer__socials-icon">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/vovacuna/" target="_blank" class="footer__socials-icon">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 Vladimir Nikolin. All Rights Reserved</p>
+        </div>         
+    </footer>
+    
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+    <!--==================== SWIPER JS: interactive swiping ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
