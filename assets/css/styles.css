@@ -961,6 +961,11 @@ img {
   color: #FFF;
 }
 
+.footer__socials-svg {
+  width: 12%;
+  filter: invert(100%);
+}
+
 
 /*========== SCROLL UP ==========*/
 .scrollup{
