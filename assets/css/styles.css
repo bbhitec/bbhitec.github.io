@@ -28,6 +28,7 @@
     --shadowed-bg-color: rgba(0,0,0,.5);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --title-logo-filters: brightness(1) invert(0);
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -101,6 +102,7 @@ body.dark-theme{
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  --title-logo-filters: brightness(0) invert(1);
 }
 
 
@@ -213,15 +215,27 @@ img {
   align-items: center;
 }
 
-.nav__logo,
+
+.nav__logo {
+  filter:  var(--title-logo-filters);
+  width: 7%;
+  
+}
+
+.nav__logo:hover {
+  filter:  brightness(1.2)
+}
+
+
+.nav__txtlogo,
 .nav__toggle {
-  color: var(--title-logo-color);
+  color: var(--text-color-light);
   font-weight: var(--font-semi-bold);
   letter-spacing: -0.5px;
 }
 
 .nav__toggle:hover,
-.nav__logo:hover {
+.nav__txtlogo:hover {
   color: var(--first-color);
 }
 
