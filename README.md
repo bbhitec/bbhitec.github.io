@@ -1,4 +1,4 @@
-# Personal Landing Page  
+# Personal Landing Page
 A trendy simple landing page for self learning and future branding purposes.<br>
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>

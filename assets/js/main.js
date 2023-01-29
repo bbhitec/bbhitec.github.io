@@ -93,7 +93,7 @@ const modalViews = document.querySelectorAll('.services__modal'),
               modalViews.forEach((modalView) =>{
                   modalView.classList.remove('active-modal')
               })
-          }) 
+          })
       })
 
 
@@ -192,7 +192,7 @@ if (selectedTheme) {
   } else {
     qualificationLogos.forEach((qualificationLogo) =>{
         qualificationLogo.classList.remove(darkLogo)
-    })  
+    })
   }
 }
 
@@ -207,7 +207,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 
-    // qualification logos recolor       
+    // qualification logos recolor
     qualificationLogos.forEach((qualificationLogo) =>{
         qualificationLogo.classList.toggle(darkLogo)
     })

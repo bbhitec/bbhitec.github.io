@@ -14,7 +14,7 @@
     /* --first-color: hsl(var(--hue-color), 69%, 61%);  */
     /* dimmer version, matching ig*/
     /* --first-color: hsl(var(--hue-color), 18%, 37%);  */
-    --first-color: hsl(var(--hue-color), 48%, 51%); 
+    --first-color: hsl(var(--hue-color), 48%, 51%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 40%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -67,13 +67,14 @@
     --default-max-width: 968px;
     --default-container-max-width: 768px;
     --small-device-max-width: 767px;
-    
+
 
     /*========== Various ==========*/
     --default-transition: .3s;
     --longer-transition: .4s;
     --icon-size-home: 1.4rem;
     --icon-size-footer: 1.8rem;
+    --icon-size-header: 1.9rem;
 }
 
 /* Font size for large devices */
@@ -178,7 +179,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.section__title, 
+.section__title,
 .section__subtitle {
   text-align: center;
 }
@@ -215,15 +216,14 @@ img {
   align-items: center;
 }
 
-
 .nav__logo {
-  filter:  var(--title-logo-filters);
-  width: 7%;
-  
+  filter: var(--title-logo-filters);
+  width: var(--icon-size-header);
 }
 
 .nav__logo:hover {
-  filter:  brightness(1.2)
+  filter:  brightness(1.2);
+  transition: var(--longer-transition);
 }
 
 
@@ -349,10 +349,10 @@ img {
 
   /* horizontal flip */
   -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);  
+  transform: scaleX(-1);
 }
 
-.home__blob-img {  
+.home__blob-img {
   float:right;
   width:200px;
   height:200px;
@@ -694,7 +694,7 @@ img {
 
 /* use this class to recolor logos in dark mode */
 .dark_logo {
-  filter: invert(100%);
+  filter: brightness(0) invert(100%);
 }
 
 .qualification__subtitle {
@@ -729,7 +729,7 @@ img {
 }
 
 .qualification__active[data-content] {
-  display: block;  
+  display: block;
 }
 
 .qualification__button.qualification__active {
@@ -979,8 +979,13 @@ img {
 }
 
 .footer__socials-svg {
-  width: 14%;
+  width: var(--icon-size-footer);
   filter: invert(100%);
+}
+
+.footer__socials-svg:hover{
+  opacity: 50%;
+  transition: var(--longer-transition);
 }
 
 
@@ -1101,7 +1106,7 @@ img {
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
-  
+
   .home__data{
     grid-column: initial;
   }
@@ -1307,7 +1312,7 @@ img {
 @media screen and (min-width: 1024px){
   .header,
   .main,
-  footer__container{
+  .footer__container{
     padding: 0;
   }
 
@@ -1345,14 +1350,12 @@ img {
 
   .contact__form{
     /* [todo] parametrize */
-    width: 460px; 
+    width: 460px;
   }
 
   .contact__inputs{
     grid-template-columns: repeat(2, 1fr);
   }
-
-
 
 
 
