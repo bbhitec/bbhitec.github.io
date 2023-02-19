@@ -226,16 +226,23 @@ img {
   transition: var(--longer-transition);
 }
 
+.nav__txtlogo {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  letter-spacing: -0.5px;
+}
 
-.nav__txtlogo,
+.nav__txtlogo:hover {
+  color: var(--first-color);
+}
+
 .nav__toggle {
   color: var(--text-color-light);
   font-weight: var(--font-semi-bold);
   letter-spacing: -0.5px;
 }
 
-.nav__toggle:hover,
-.nav__txtlogo:hover {
+.nav__toggle:hover {
   color: var(--first-color);
 }
 
