@@ -1,7 +1,5 @@
 # Personal Landing Page
-A trendy simple landing page for self learning and future branding purposes.<br>
-
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+A clean personal landing page with a quick intro and projects display.<br>
 
 ## Gains
 - Self-learning and polishing HTML5 and CSS3
@@ -14,6 +12,7 @@ A trendy simple landing page for self learning and future branding purposes.<br>
     - Lazy loading sections
 - Open Graph meta tags
 - Scrolling animation library
+- Design matching personal brand
 - 404 Error Page
 
 ### Skills stack
@@ -21,16 +20,7 @@ A trendy simple landing page for self learning and future branding purposes.<br>
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-## Next Up
-[x] Initial skeleton website as per tutorial<br>
-[x] Design matching personal brand<br>
-[ ] Broaden the skills section?<br>
-
 
 
 ## Usage/How to run
 Pull the project or [view the live site](http://www.vnikolin.com/)
-
-## Sources
-- Based on a tutorial implemented [here](https://www.vnikolin.com/responsive_website_doodle/index.html)
-- Various YouTube tutorials and tips
