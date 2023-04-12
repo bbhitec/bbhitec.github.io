@@ -97,25 +97,6 @@ const modalViews = document.querySelectorAll('.services__modal'),
       })
 
 
-/*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper('.portfolio__container', {
-    // [todo] make smooth scrolling
-    cssMode: true,
-    loop: true,
-
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    // mousewheel: true,
-    // keyboard: true,
-});
-
-
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')

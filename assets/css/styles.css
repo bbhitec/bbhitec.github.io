@@ -535,7 +535,7 @@ img {
 }
 
 .about__description {
-  font-size: var(--small-font-size);
+  /* font-size: var(--small-font-size); */
   text-align: justify;
   margin-bottom: var(--mb-2-5);
 
@@ -790,11 +790,14 @@ img {
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
-  overflow: initial;
+  /* overflow: initial; */
+  /* display: flex; */
+  position: relative;
+  grid-template-columns: repeat(2,1fr);
 }
 
 .portfolio__content {
-  padding: 0 1.5rem;
+  padding: 2rem 1rem;
 }
 
 .portfolio__img {
@@ -981,7 +984,7 @@ img {
 .footer__copy{
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-lighter);
+  color: var(--first-color-lighter);
   margin-top: var(--mb-3);
 }
 
