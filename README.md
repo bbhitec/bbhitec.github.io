@@ -12,6 +12,7 @@ A clean personal landing page with a quick intro and projects display.<br>
     - Lazy loading sections
 - Open Graph meta tags
 - Scrolling animation library
+- Smooth fade-ins on elements
 - Design matching personal brand
 - 404 Error Page
 
