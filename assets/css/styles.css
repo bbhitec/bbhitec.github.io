@@ -528,14 +528,13 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 100%;
   border-radius: .7rem;
   justify-self: center;
   align-self: center;
 }
 
 .about__description {
-  /* font-size: var(--small-font-size); */
   text-align: justify;
   margin-bottom: var(--mb-2-5);
 
@@ -791,19 +790,21 @@ img {
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   /* overflow: initial; */
-  /* display: flex; */
-  position: relative;
-  grid-template-columns: repeat(2,1fr);
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
 }
 
 .portfolio__content {
-  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  padding: 2rem;
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 100%;
   border-radius: 1rem;
-  justify-self: center;
+  justify-self: left;
   box-shadow: 2px 2px 4px rgba(0,0,0,.15);
   margin-bottom: var(--mb-0-5);
 }
@@ -1140,12 +1141,11 @@ img {
 
   .about__container,
   .skills__container,
-  .portfolio__content,
+  .portfolio__container,
   .project__container,
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
   }
-
 
   .qualification__sections{
     display: grid;
