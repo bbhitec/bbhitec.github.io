@@ -10,8 +10,7 @@ A clean personal landing page with a quick intro and projects display.<br>
 - [Optimizing site speed issues with Lighthouse audit](https://pagespeed.web.dev/report?url=http%3A%2F%2Fwww.vnikolin.com%2F&form_factor=mobile)<br>
     - Use of efficient image formats
     - Lazy loading sections
-- Open Graph meta tags
-- Scrolling animation library
+- OpenGraph meta tags
 - Smooth fade-ins on elements
 - Design matching personal brand
 - 404 Error Page
