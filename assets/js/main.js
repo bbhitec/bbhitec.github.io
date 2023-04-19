@@ -183,6 +183,6 @@ const sr = ScrollReveal({
 // apply animation over elements
 sr.reveal(`.home__title, .home__subtitle, .home__description`, {interval: 100})
 sr.reveal(`.button__contact, .button__cv, .qualification__logo`, {origin: 'bottom'})
-sr.reveal(`.home__img, .about__cell, .portfolio__content`, {origin: 'bottom', interval: 100})
+sr.reveal(`.home__img, .about__cell`, {origin: 'bottom', interval: 100})
 sr.reveal(`.about__img, .home__social, .contact__information`, {origin: 'left'})
-// removed: .about__description, .portfolio__container
+// removed: .about__description, .portfolio__container, .portfolio__content
