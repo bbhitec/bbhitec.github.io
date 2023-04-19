@@ -34,6 +34,7 @@ html {
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
     --title-logo-filters: brightness(1) invert(0);
+    --gray-color: hsl(var(--hue-color), 1%, 50%);
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -46,10 +47,12 @@ html {
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
+    --badge-font-size: .75rem;
 
     /*========== Font weight ==========*/
     --font-medium: 500;
     --font-semi-bold: 600;
+    --font-light: 100;
 
     /*========== Margenes Bottom ==========*/
     /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
@@ -473,6 +476,22 @@ img {
   background-color: transparent;
   color: var(--first-color-alt);
 }
+
+
+/*==================== BADGES ====================*/
+
+.badge--small {
+  display: inline-block;
+  background-color: var(--gray-color);
+  color: #FFF;
+  padding: 0.15rem 0.35rem;
+  border-radius: .25rem;
+  font-size: var(--badge-font-size);
+  font-weight: var(--font-light);
+  margin: 0.1rem;
+}
+
+
 
 .services__button:hover .button__icon {
   transform: translateX(0.25rem);
