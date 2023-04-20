@@ -138,6 +138,7 @@ body.dark-theme{
 
 html {
   scroll-behavior: smooth;
+  /* scroll-padding: 10rem; */
 }
 
 body {
