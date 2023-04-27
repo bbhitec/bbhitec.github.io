@@ -76,7 +76,7 @@
     /*========== Various ==========*/
     --default-transition: .3s;
     --longer-transition: .4s;
-    --icon-size-home: 2rem;
+    --icon-size-home: 1.5rem;
     --icon-size-footer: 1.8rem;
 }
 
@@ -370,7 +370,7 @@ img {
 .home__data,
 .error__data {
   grid-column: 1/3;
-  margin-bottom: var(--mb-2)
+  margin-bottom: var(--mb-2);
 }
 
 .home__title,
@@ -384,6 +384,50 @@ img {
   color: var(--text-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+}
+
+.flip__wrap {
+  height: 1.6rem;
+  line-height: 1.5rem;
+  font-size: var(--h3-font-size);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* text-transform: uppercase; */
+  /* color: #4377fb; */
+}
+
+.flip__text {
+  position: relative;
+  animation: flip_words 12s ease infinite;
+}
+
+@keyframes flip_words {
+  0%,
+  100% {
+    top: 0;
+  }
+  20% {
+    top: 0;
+  }
+  25% {
+    top: -1.5rem;
+  }
+  45% {
+    top: -1.5rem;
+  }
+  50% {
+    top: -3rem;
+  }
+  70% {
+    top: -3rem;
+  }
+  75% {
+    top: -4.5rem;
+  }
+  95% {
+    top: -4.5rem;
+  }
 }
 
 .home__description,
