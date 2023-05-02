@@ -759,6 +759,7 @@ img {
   display: grid;
   grid-template-columns: repeat(1,1fr);
   padding: 2rem;
+  overflow: hidden;
 }
 
 .portfolio__img {
@@ -767,6 +768,12 @@ img {
   justify-self: left;
   box-shadow: 2px 2px 4px rgba(0,0,0,.15);
   margin-bottom: var(--mb-0-5);
+  transition: var(--longer-transition);
+}
+
+.portfolio__img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.05);
 }
 
 .portfolio__title {
