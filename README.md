@@ -2,8 +2,9 @@
 A clean personal landing page with a quick intro and projects display.<br>
 
 ## Gains
-- Self-learning and polishing HTML5 and CSS3
-- Responsive elements behavior, various device testing
+- Self-learning and polishing HTML5, CSS3 and JS
+- Responsive elements behavior, various devices testing
+- Basic Front-End: elements arrangement and animation
 
 ### Other Gains
 - Using Git submodules (a child website)
@@ -13,6 +14,7 @@ A clean personal landing page with a quick intro and projects display.<br>
 - OpenGraph meta tags
 - Smooth fade-ins on elements
 - Design matching personal brand
+- Google Analytics injection
 - 404 Error Page
 
 ### Skills stack
