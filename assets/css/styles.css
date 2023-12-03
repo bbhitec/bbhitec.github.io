@@ -475,6 +475,17 @@ img {
   font-weight: var(--font-medium);
 }
 
+.button__disabled {
+  display: inline-block;
+  background-color: var(--gray-color);
+  color: #FFF;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
+
+
+
 .button:hover {
   background-color: var(--first-color-alt);
   transition: var(--default-transition);
