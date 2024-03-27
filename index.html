@@ -105,8 +105,11 @@
 
                     <!--Profile image under an svg blob-->
                     <div class="home__img">
+                        <img src="assets/img/hero2.webp" style="filter: opacity(85%); " loading="lazy" draggable="false" alt="Vladimir Nikolin BSc. SW-Eng">
+
+                        <!-- <image class="home__blob-img" xlink:href="assets/img/hero2.webp" alt="Vladimir Nikolin BSc. SW-Eng" /> -->
                         <!-- Tutorial-sourced svg image mask -->
-                        <svg class="home__blob" viewBox="0 0 200 200">
+                        <!-- <svg class="home__blob" viewBox="0 0 200 200">
                             <mask id="mask0" mask-type="alpha">
                                 <circle cx="100" cy="90" r="90" />
                             </mask>
@@ -115,7 +118,7 @@
                                 <image class="home__blob-img" xlink:href="assets/img/profile1b.webp"
                                     alt="Vladimir Nikolin BSc. SW-Eng" />
                             </g>
-                        </svg>
+                        </svg> -->
                     </div>
 
                     <div class="home__data">
@@ -125,9 +128,9 @@
                                 <span class="flip__text">Software Engineer</span>
                                 <span class="flip__text">Web Designer</span>
                                 <span class="flip__text">Digital Marketer</span>
-                                <span class="flip__text">Event Producer</span>
-                                <span class="flip__text">Hello</span>
-                                <span class="flip__text">Business Owner</span>
+                                <span class="flip__text">Business Manager</span>
+                                <span class="flip__text">Producer</span>
+                                <span class="flip__text">Consultant</span>
                             </div>
                         </h2>
                         <p class="home__description">Welcome to my portfolio site. Feel free to look around and don't
@@ -207,7 +210,7 @@
                                 <span class="qualification__subtitle">
                                     Freelance<br>
                                     -Web development<br>
-                                    -Algo optimization
+                                    -Algo optimizations
                                 </span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -238,8 +241,7 @@
                             </div>
 
                             <div>
-                                <h3 class="qualification__title" style="text-transform: uppercase;">Technology
-                                    Manager</h3>
+                                <h3 class="qualification__title" style="text-transform: uppercase;">Business Manager</h3>
                                 <span class="qualification__subtitle">LMDC Productions<br>-Digital presence<br>-Business
                                     development</span>
                                 <div class="qualification__calendar">
@@ -364,7 +366,7 @@
                     <img src="assets/img/prj_noteit1.webp" class="portfolio__img" alt="AST.NET Web App" loading="lazy">
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title">Fast Note Taking App</h3>
+                        <h3 class="portfolio__title">NoteIt - Fast Note Taking App</h3>
                         <p class="portfolio__description">
                             A Full stack Web App easily accessible from anywhere!
                             <br>
@@ -388,7 +390,7 @@
                     </div>
                 </div>
 
-                <!--==================== PORTFOLIO 2 ====================-->
+                <!--==================== PORTFOLIO Landing Page ====================-->
                 <!-- <div class="portfolio__content grid">
                     <img src="assets/img/prj_website1.webp" class="portfolio__img" alt="Responsive Website"
                         loading="lazy" draggable="false">
@@ -418,13 +420,47 @@
                     </div>
                 </div> -->
 
-                <!--==================== PORTFOLIO TEMP ====================-->
+                <!--==================== PORTFOLIO Bloug ====================-->
+                <div class="portfolio__content grid">
+                    <img src="assets/img/prj_bloug.webp" class="portfolio__img" alt="Blog writing app"
+                        loading="lazy" draggable="false">
+
+                    <div class="portfolio__data">
+                        <!-- [mst] this project is used as a submodule -->
+                        <h3 class="portfolio__title">Bloug App</h3>
+                        <p class="portfolio__description">
+                            A minimal and efficient full stack blogging app built with modern React.js.
+                            <br>
+                            <span class="qualification__subtitle">Tech:
+                                <span class="badge--small">React</span>
+                                <span class="badge--small">Node.js</span>
+                                <span class="badge--small">APIs</span>
+                            </span>
+                        </p>
+                        <a href="https://www.vnikolin.com/bloug/" target="_blank"
+                            class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=972545226193&text=Hey,%20I%20need%20a%20blog!"
+                            target="_blank" class="button button--flex button--small portfolio__button">
+                            Order it!
+                            <i class="uil uil-star button__icon"></i>
+                        </a>
+                        <a href="https://github.com/bbhitec/bloug" target="_blank"
+                            class="button button--flex button--small portfolio__button">
+                            <i class="uil uil-github-alt button__icon-static"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO Gipity ====================-->
                 <div class="portfolio__content grid">
                     <img src="assets/img/prj_gpt1.webp" class="portfolio__img" alt="GPT Interfacer"
                         loading="lazy" draggable="false">
 
                     <div class="portfolio__data">
-                        <!-- [mst] this project is used as a submodule -->
                         <h3 class="portfolio__title">Personalized GPT App</h3>
                         <p class="portfolio__description">
                             A custom chatGPT app with added prompt layers and customizeable interface.
@@ -444,7 +480,7 @@
                     </div>
                 </div>
 
-                <!--==================== PORTFOLIO 1 ====================-->
+                <!--==================== PORTFOLIO Next Tailwind ====================-->
                 <div class="portfolio__content grid">
                     <img src="assets/img/prj_website2.webp" class="portfolio__img" alt="Responsive Portfolio Web App"
                         loading="lazy" draggable="false">
@@ -630,7 +666,7 @@
                     <br>
                     <a href="https://codepen.io/bbhitec" target="_blank" class="footer__socials-icon">
                         <img src="assets/img/codepen.svg" class="footer__socials-svg" draggable="false" alt="Codepen Works">
-                    </a>                    
+                    </a>
                     <a href="https://leetcode.com/bbht/" target="_blank" class="footer__socials-icon">
                         <img src="assets/img/leetcode.svg" class="footer__socials-svg" draggable="false" alt="Leetcode Profile">
                     </a>
@@ -642,7 +678,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; 2023 Vladimir Nikolin. All Rights Reserved</p>
+            <p class="footer__copy">&#169; 2024 Vladimir Nikolin. All Rights Reserved</p>
         </div>
     </footer>
 

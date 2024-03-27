@@ -400,7 +400,7 @@ img {
 
 .flip__text {
   position: relative;
-  animation: flip_words 12s ease infinite;
+  animation: flip_words 24s ease infinite;
 }
 
 @keyframes flip_words {
@@ -495,6 +495,10 @@ img {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
   transition: var(--default-transition);
+}
+
+.button__icon-static {
+  font-size: 1.25rem;
 }
 
 .button--white{
@@ -847,6 +851,7 @@ img {
   /* margin-right: var(--mb-1-5); */
   /* gap: 1.5rem; */
   /* grid-template-columns: repeat(3,1fr); */
+  margin-bottom: var(--mb-1-5);
 }
 
 
