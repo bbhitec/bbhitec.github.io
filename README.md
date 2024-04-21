@@ -1,7 +1,7 @@
 # vnikolin.com - Personal Landing Page
 
 A clean personal landing page with a quick intro, quick resume and a pleasant projects display.<br>
-Using the bare-bones approach to make an efficient and lightweight landing page.
+Using the bare-bones approach to make the page as lightweight as possible.
 
 
 ## Gains

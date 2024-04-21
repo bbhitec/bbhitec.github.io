@@ -9,11 +9,8 @@
   /*========== Colors ==========*/
   /* Change favorite color */
   --hue-color: 217;
-  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
-  /* original saturation and lumosity*/
-  /* --first-color: hsl(var(--hue-color), 69%, 61%);  */
   /* dimmer version, matching ig*/
   /* --first-color: hsl(var(--hue-color), 18%, 37%);  */
   --first-color: hsl(var(--hue-color), 57%, 53%);
@@ -36,7 +33,6 @@
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
 
-  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -360,7 +356,7 @@ img {
   width: 200px;
   fill: var(--first-color);
 
-  /* horizontal flip */
+  /* optional horizontal flip */
   /* -webkit-transform: scaleX(-1);
   transform: scaleX(-1); */
 }
@@ -720,7 +716,6 @@ img {
 .qualification__title_nocap {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  /* text-transform: uppercase; this will match cv style */
 }
 
 .qualification__logo {

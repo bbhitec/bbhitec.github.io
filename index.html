@@ -9,7 +9,7 @@
     <meta name="description" content="Personal portfolio landing page.">
     <meta name="author" content="vnikolin">
 
-    <!-- Facebook Meta Tags -->
+    <!-- Meta Tags -->
     <meta property="og:url" content="https://www.vnikolin.com/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Vladimir Nikolin - Software Engineer">
@@ -18,23 +18,17 @@
 
 
     <!--==================== UNICONS ====================-->
-    <!-- [bp] configuring lazy load as speed optimization -->
     <link rel="preload" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     </noscript>
-    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
 
     <!--==================== SCROLLREVEAL CSS ====================-->
-    <!-- online library -->
-    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
-    <!-- locally stored -->
     <script defer src="assets/js/scrollreveal.min.js"></script>
 
+
     <!--==================== CSS ====================-->
-    <!-- <link rel="preload" href="assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="assets/css/styles.css" ></noscript> -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>Vladimir Nikolin - Software Engineer</title>
@@ -108,7 +102,6 @@
 
                     <!--Profile image under an svg blob-->
                     <div class="home__img">
-                        <!-- Tutorial-sourced svg image mask -->
                         <svg class="home__blob" viewBox="0 0 200 200">
                             <mask id="mask0" mask-type="alpha">
                                 <circle cx="100" cy="90" r="90" />
@@ -125,13 +118,11 @@
                         <h1 class="home__title">Hey, I'm Vladimir</h1>
                         <h2 class="home__subtitle">
                             <div class="flip__wrap">
+                                <!-- flipping sub-titles -->
                                 <span class="flip__text">Software Engineer</span>
                                 <span class="flip__text">Web Developer</span>
                                 <span class="flip__text">Code Whisperer</span>
                                 <span class="flip__text">Business Magician</span>
-                                <!-- <span class="flip__text">Digital Marketer</span>
-                                <span class="flip__text">Producer</span>
-                                <span class="flip__text">Consultant</span> -->
                             </div>
                         </h2>
                         <p class="home__description">Welcome to my portfolio site. Feel free to look around and don't
@@ -152,8 +143,7 @@
             <span class="section__subtitle">Nice to meet you!</span>
 
             <div class="about__container container grid">
-                <!-- profile photo to match personal brand -->
-                <!-- <img src="assets/img/vnikolin2.webp" alt="" class="about__img" loading="lazy" draggable="false"> -->
+                <!-- profile photo to match pb -->
                 <img src="assets/img/hero2.webp" style="filter: opacity(85%);" width="100%" height="100%" loading="lazy"
                     draggable="false" alt="Vladimir Nikolin BSc. SW-Eng">
 
@@ -182,7 +172,7 @@
                     </div>
 
                     <div class="about__buttons">
-                        <!--[bp] routing to a google-drive stored cv for concurrency. some companies might not like it-->
+                        <!--[bp] routing to a google-drive stored cv for concurrency-->
                         <a download="" href="https://drive.google.com/file/d/1uLTCMiX2hf9VowlmzzSNOlNT7vU62zYx/"
                             target="_blank" class="button button--flex">
                             Detailed CV <i class="uil uil-file button__icon"></i>
@@ -245,9 +235,10 @@
                             </div>
 
                             <div>
-                                <h3 class="qualification__title" style="text-transform: uppercase;">Business Manager
+                                <h3 class="qualification__title" style="text-transform: uppercase;">Back-End Manager
                                 </h3>
-                                <span class="qualification__subtitle">LMDC Productions<br>-Back-End development<br>-Marketing direction</span>
+                                <span class="qualification__subtitle">LMDC Productions<br>-Mediating business
+                                    developmnet and eCommerce needs</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     2019-Present
@@ -334,10 +325,9 @@
                                     <i class="uil uil-calendar-alt"></i>
                                     2011-2016
                                 </div>
-                                <span class="qualification__subtitle">ORT Braude College<br> Karmiel, Israel<br>-Dean's
+                                <span class="qualification__subtitle">ORT Braude College<br>Karmiel, Israel<br>-Dean's
                                     Honors<br>-Excellence program</span>
 
-                                <!-- -Dean's Honors<br>-Excellence program -->
                                 <img src="assets/img/logo_braude.webp" class="qualification__logo"
                                     alt="ORT Braude College" loading="lazy" draggable="false"></i>
                             </div>
@@ -556,6 +546,7 @@
                             <span class="qualification__subtitle">Tech:
                                 <span class="badge--small">React</span>
                                 <span class="badge--small">CSS</span>
+                                <span class="badge--small">Front-End</span>
                             </span>
                         </p>
                         <a href="https://www.vnikolin.com/inda_components_js/" target="_blank"
@@ -602,7 +593,6 @@
                         loading="lazy" draggable="false">
 
                     <div class="portfolio__data">
-                        <!-- [mst] this project is used as a submodule -->
                         <h3 class="portfolio__title">Responsive Landing Page</h3>
                         <p class="portfolio__description">
                             A simple, static and responsive portfolio website that looks great on any device
@@ -660,9 +650,7 @@
             <span class="section__subtitle">Let's get in touch</span>
 
             <div class="contact__container">
-                <!-- <div> -->
 
-                <!-- [mst] add phone only if needed -->
                 <a href="https://api.whatsapp.com/send?phone=972545226193&text=Hey,%20nice%20portfolio!">
                     <div class="contact__information" id="contact">
 
@@ -694,8 +682,6 @@
                         <span class="contact__subtitle">Israel</span>
                     </div>
                 </div>
-
-                <!-- </div> -->
 
             </div>
         </section>
