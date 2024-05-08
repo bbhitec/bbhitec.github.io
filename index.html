@@ -52,7 +52,14 @@
     <header class="header" id="header">
         <nav class="nav container">
             <!-- lightweight text based logo -->
-            <a href="#" class="nav__logo">Vladimir Nikolin</a>
+            <div class="nav__leftblock">
+                <img class="nav__logoicon" src="assets/img/vn_favicon1.svg" width="30" height="30"
+                                        alt="Vladimir Nikolin BSc. SW-Eng" />
+                <a href="#" class="nav__logo">
+
+                    Vladimir Nikolin
+                </a>
+            </div>
 
             <!-- navigation menu elements -->
             <div class="nav__menu" id="nav-menu">
@@ -148,14 +155,15 @@
 
 
                 <div class="about__data">
-                    <p class="about__description">Passionate for creativity and technicality, I enjoy leading and
-                        inspiring growth. It has been a time of great creation and I'm always up for a new challenge!
+                    <p class="about__description">
+
+                        Passionate for creativity and technicality, I'm always seeking new opportunities to leverage my expertise to make a meaningful impact in a dynamic and collaborative environment.
                     </p>
 
 
                     <div class="about__info">
                         <div class="about__cell">
-                            <span class="about__info-title">7+</span>
+                            <span class="about__info-title">8+</span>
                             <span class="about__info-name">Years in<br>Software</span>
                         </div>
 
@@ -191,7 +199,7 @@
                 <div class="qualification__sections">
 
 
-                    <!--==================== QUALIFICATION  CONTENT 2 ====================-->
+                    <!--==================== QUALIFICATION CONTENT ====================-->
                     <div class="qualification__content qualification__active" data-content id="work">
                         <!--==================== QUALIFICATION 1 ====================-->
                         <div class="qualification__data">
@@ -202,7 +210,7 @@
                                 <span class="qualification__subtitle">
                                     Freelance<br>
                                     -Web Development<br>
-                                    -AI/LLM Engineering<br>
+                                    -LLM Engineering<br>
                                 </span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
@@ -240,10 +248,10 @@
                                     development and eCommerce needs</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2019-Present
-                                    <!-- <br> -->
-                                    <!-- <i class="uil uil-heart"></i>
-                                    Dream Business -->
+                                    2019-2024
+                                    <br>
+                                    <i class="uil uil-heart"></i>
+                                    Dream Business
                                 </div>
 
                                 <!-- recolor images with style filter -->
@@ -385,6 +393,7 @@
                     </div>
                 </div>
 
+
                 <!--==================== PORTFOLIO Pic-a-Joke ====================-->
                 <div class="portfolio__content grid">
                     <img src="assets/img/prj_chain.webp" class="portfolio__img" alt="Pic-a-Joke" loading="lazy"
@@ -414,6 +423,7 @@
 
                     </div>
                 </div>
+
 
                 <!--==================== PORTFOLIO Gipity ====================-->
                 <div class="portfolio__content grid">
@@ -474,63 +484,35 @@
                     </div>
                 </div>
 
-                <!--==================== PORTFOLIO Next Tailwind ====================-->
+
+                <!--==================== PORTFOLIO Landing Page ====================-->
                 <div class="portfolio__content grid">
-                    <img src="assets/img/prj_website2.webp" class="portfolio__img" alt="Responsive Portfolio Web App"
+                    <img src="assets/img/prj_website1.webp" class="portfolio__img" alt="Responsive Website"
                         loading="lazy" draggable="false">
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title">Personized Web App</h3>
+                        <h3 class="portfolio__title">Responsive Landing Page</h3>
                         <p class="portfolio__description">
-                            Efficient responsive web app utilizing modern web frameworks
+                            A simple, static and responsive portfolio website that looks great on any device
                             <br>
                             <span class="qualification__subtitle">Tech:
-                                <span class="badge--small">Next.js</span>
-                                <span class="badge--small">Tailwind</span>
-                                <span class="badge--small">React</span>
+                                <span class="badge--small">HTML5</span>
+                                <span class="badge--small">CSS3</span>
+                                <span class="badge--small">JavaScript</span>
                             </span>
                         </p>
-                        <a href="https://nextjs-tailwind-react-page.vercel.app/" target="_blank"
+                        <a href="responsive_website_doodle/index.html" target="_blank"
                             class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-play button__icon"></i>
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=972545226193&text=Hey,%20I%20need%20a%20website!"
                             target="_blank" class="button button--flex button--small portfolio__button">
-                            Want One?
+                            Order it!
                             <i class="uil uil-star button__icon"></i>
                         </a>
                     </div>
                 </div>
-
-                <!--==================== PORTFOLIO Flappy ====================-->
-                <div class="portfolio__content grid">
-                    <img src="assets/img/prj_flappy1.webp" class="portfolio__img" alt="Flappy game clone"
-                        loading="lazy">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Flappy Pygame</h3>
-                        <p class="portfolio__description">
-                            A popular game clone using pygame and various render techniques
-                            <br>
-                            <span class="qualification__subtitle">Tech:
-                                <span class="badge--small">Python</span>
-                                <span class="badge--small">Pygame</span>
-                            </span>
-                        </p>
-                        <a href="https://bbht.itch.io/flappy" target="_blank"
-                            class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-play button__icon"></i>
-                        </a>
-                        <a href="https://github.com/bbhitec/flappy_pygame" target="_blank"
-                            class="button button--flex button--small portfolio__button">
-                            Source Repo
-                            <i class="uil uil-github-alt button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
 
 
                 <!--==================== PORTFOLIO INDA ====================-->
@@ -562,6 +544,66 @@
                     </div>
                 </div>
 
+
+                <!--==================== PORTFOLIO Next Tailwind ====================-->
+                <div class="portfolio__content grid">
+                    <img src="assets/img/prj_website2.webp" class="portfolio__img" alt="Responsive Portfolio Web App"
+                        loading="lazy" draggable="false">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Personized Web App</h3>
+                        <p class="portfolio__description">
+                            Efficient responsive web app utilizing modern web frameworks
+                            <br>
+                            <span class="qualification__subtitle">Tech:
+                                <span class="badge--small">Next.js</span>
+                                <span class="badge--small">Tailwind</span>
+                                <span class="badge--small">React</span>
+                            </span>
+                        </p>
+                        <a href="https://nextjs-tailwind-react-page.vercel.app/" target="_blank"
+                            class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=972545226193&text=Hey,%20I%20need%20a%20website!"
+                            target="_blank" class="button button--flex button--small portfolio__button">
+                            Want One?
+                            <i class="uil uil-star button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!--==================== PORTFOLIO Flappy ====================-->
+                <div class="portfolio__content grid">
+                    <img src="assets/img/prj_flappy1.webp" class="portfolio__img" alt="Flappy game clone"
+                        loading="lazy">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Flappy Pygame</h3>
+                        <p class="portfolio__description">
+                            A popular game clone using pygame and various render techniques
+                            <br>
+                            <span class="qualification__subtitle">Tech:
+                                <span class="badge--small">Python</span>
+                                <span class="badge--small">Pygame</span>
+                            </span>
+                        </p>
+                        <a href="https://bbht.itch.io/flappy" target="_blank"
+                            class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                        <a href="https://github.com/bbhitec/flappy_pygame" target="_blank"
+                            class="button button--flex button--small portfolio__button">
+                            Source Repo
+                            <i class="uil uil-github-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+
                 <!--==================== PORTFOLIO Caramelo ====================-->
                 <div class="portfolio__content grid">
                     <img src="assets/img/prj_caramelo1.webp" alt="Caramelo Festival Branding" class="portfolio__img"
@@ -587,34 +629,6 @@
                     </div>
                 </div>
 
-                <!--==================== PORTFOLIO Landing Page ====================-->
-                <div class="portfolio__content grid">
-                    <img src="assets/img/prj_website1.webp" class="portfolio__img" alt="Responsive Website"
-                        loading="lazy" draggable="false">
-
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Responsive Landing Page</h3>
-                        <p class="portfolio__description">
-                            A simple, static and responsive portfolio website that looks great on any device
-                            <br>
-                            <span class="qualification__subtitle">Tech:
-                                <span class="badge--small">HTML5</span>
-                                <span class="badge--small">CSS3</span>
-                                <span class="badge--small">JavaScript</span>
-                            </span>
-                        </p>
-                        <a href="responsive_website_doodle/index.html" target="_blank"
-                            class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-play button__icon"></i>
-                        </a>
-                        <a href="https://api.whatsapp.com/send?phone=972545226193&text=Hey,%20I%20need%20a%20website!"
-                            target="_blank" class="button button--flex button--small portfolio__button">
-                            Order it!
-                            <i class="uil uil-star button__icon"></i>
-                        </a>
-                    </div>
-                </div>
 
                 <!--==================== PORTFOLIO GitHub ====================-->
                 <div class="portfolio__content grid">
@@ -640,9 +654,10 @@
                     </div>
                 </div>
 
-
             </div>
         </section>
+
+
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section">

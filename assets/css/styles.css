@@ -234,6 +234,17 @@ img {
 }
 */
 
+.nav__leftblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__logoicon {
+  margin-right: 5px;
+  color: var(--title-color);
+}
+
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
