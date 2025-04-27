@@ -519,6 +519,13 @@ img {
   font-size: 1.25rem;
 }
 
+.button__icon-inverted {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: var(--default-transition);
+  color: var(--first-color);
+}
+
 .button--white {
   background-color: #FFF;
   color: var(--first-color);
@@ -526,6 +533,14 @@ img {
 
 .button--white:hover {
   background-color: #FFF;
+}
+
+
+.button--white-portfolio {
+  background-color: --body-color;
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  box-shadow:0px 0px 0px 2px var(--first-color) inset;
 }
 
 .button--flex {
@@ -536,6 +551,13 @@ img {
 .button--small {
   padding: .75rem 1rem;
   margin: 0.1rem;
+}
+
+.button--small-inverted {
+  padding: .75rem 1rem;
+  margin: 0.1rem;
+  color: var(--first-color);
+  border-radius: .5rem;
 }
 
 .button--link {
@@ -818,7 +840,11 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon {
+.portfolio__button:hover .button__icon{
+  transform: translateX(.25rem);
+}
+
+.portfolio__button:hover .button__icon-inverted{
   transform: translateX(.25rem);
 }
 
