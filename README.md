@@ -1,7 +1,7 @@
-# vnikolin.com - Personal Landing Page
+# Personal Landing Page - vnikolin.com
 
 A clean personal landing page with a quick intro, quick resume and a pleasant projects display.<br>
-Using the bare-bones approach to make the page as lightweight as possible.
+Using the bare-bones approach to make the page as lightweight as possible. Use it as a template (Use your own logo though 😉) or as a learning base.
 
 
 ## Gains
@@ -29,8 +29,6 @@ Using the bare-bones approach to make the page as lightweight as possible.
 ![](https://shields.io/badge/-css-4377cb?logo=css3)
 ![](https://shields.io/badge/-js-4377cb?logo=javascript)
 ![](https://shields.io/badge/-web%20design-4377cb)
-![](https://shields.io/badge/-content-4377cb?logo)
-![](https://shields.io/badge/-marketing-4377cb?logo)
 
 
 ## Usage/How to run

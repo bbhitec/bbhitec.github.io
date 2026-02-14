@@ -622,6 +622,10 @@ img {
   text-align: center;
 }
 
+.about__cell {
+  flex: 1 1 0;
+}
+
 .about__buttons {
   display: flex;
   justify-content: center;

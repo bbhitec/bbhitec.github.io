@@ -108,16 +108,8 @@
 
                     <!--Profile image under an svg blob-->
                     <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 200">
-                            <mask id="mask0" mask-type="alpha">
-                                <circle cx="100" cy="90" r="90" />
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <circle cx="100" cy="90" r="90" />
-                                <image class="home__blob-img" xlink:href="assets/img/profile1b.webp"
-                                    alt="Vladimir Nikolin BSc. SW-Eng" />
-                            </g>
-                        </svg>
+                        <img src="assets/img/hero2.webp" style="filter: opacity(85%);" width="100%" height="100%" loading="lazy"
+                            draggable="false" alt="Vladimir Nikolin BSc. SW-Eng">
                     </div>
 
                     <div class="home__data">
@@ -126,9 +118,9 @@
                             <div class="flip__wrap">
                                 <!-- flipping sub-titles -->
                                 <span class="flip__text">Software Engineer</span>
-                                <span class="flip__text">Web Developer</span>
                                 <span class="flip__text">Code Whisperer</span>
-                                <span class="flip__text">Business Magician</span>
+                                <span class="flip__text">Backend Magician</span>
+                                <span class="flip__text">Cloud Walker</span>
                             </div>
                         </h2>
                         <p class="home__description">Welcome to my portfolio site. Feel free to look around and don't
@@ -150,9 +142,15 @@
 
             <div class="about__container container grid">
                 <!-- profile photo to match pb -->
-                <img src="assets/img/hero2.webp" style="filter: opacity(85%);" width="100%" height="100%" loading="lazy"
-                    draggable="false" alt="Vladimir Nikolin BSc. SW-Eng">
-
+                <svg class="home__blob" viewBox="0 0 200 200">
+                    <mask id="mask0" mask-type="alpha">
+                        <circle cx="100" cy="90" r="90" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <circle cx="100" cy="90" r="90" />
+                        <image class="home__blob-img" xlink:href="assets/img/profile1b.webp" alt="Vladimir Nikolin BSc. SW-Eng" />
+                    </g>
+                </svg>
 
                 <div class="about__data">
                     <p class="about__description">
@@ -162,18 +160,19 @@
 
                     <div class="about__info">
                         <div class="about__cell">
-                            <span class="about__info-title">11+</span>
+                            <!-- <span id="year"></span> -->
+                            <span class="about__info-title" id="sw_years"></span>
                             <span class="about__info-name">Years in<br>Software</span>
                         </div>
 
                         <div class="about__cell">
                             <span class="about__info-title">5+</span>
-                            <span class="about__info-name">Years in Management<br>& Business</span>
+                            <span class="about__info-name">Years in Management</span>
                         </div>
 
                         <div class="about__cell">
                             <span class="about__info-title">~7</span>
-                            <span class="about__info-name">Average daily <br> push-ups</span>
+                            <span class="about__info-name">Average daily push-ups</span>
                         </div>
                     </div>
 
@@ -207,7 +206,7 @@
                             <div>
                                 <h3 class="qualification__title" style="text-transform: uppercase;">Senior Software Engineer
                                 </h3>
-                                <span class="qualification__subtitle">Watchit.ai<br>-Spearheading boating safety innovation</span>
+                                <span class="qualification__subtitle">WATCHIT.AI<br>-Spearheading boating safety innovation</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     2024-Present
@@ -531,7 +530,7 @@
 
 
                 <!--==================== PORTFOLIO Flappy ====================-->
-                <div class="portfolio__content grid">
+                <!-- <div class="portfolio__content grid">
                     <img src="assets/img/prj_flappy1.webp" class="portfolio__img" alt="Flappy game clone"
                         loading="lazy">
 
@@ -556,7 +555,7 @@
                             <i class="uil uil-github-alt button__icon"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
 
 
                 <!--==================== PORTFOLIO GitHub ====================-->
@@ -585,7 +584,6 @@
 
             </div>
         </section>
-
 
 
         <!--==================== CONTACT ME ====================-->
@@ -639,9 +637,6 @@
                     </a>
                     <a href="https://github.com/bbhitec/" target="_blank" class="footer__socials-icon">
                         <i class="uil uil-github"></i>
-                    </a>
-                    <a href="https://www.facebook.com/vovacuna/" target="_blank" class="footer__socials-icon">
-                        <i class="uil uil-facebook"></i>
                     </a>
                     <br>
                     <a href="https://codepen.io/bbhitec" target="_blank" class="footer__socials-icon">

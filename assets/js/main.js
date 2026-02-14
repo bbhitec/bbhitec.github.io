@@ -1,3 +1,10 @@
+/*==================== YEARS SINCE SCRIPT ====================*/
+const currentYear = new Date().getFullYear();
+const swYear = 2014;
+const swDiff = currentYear - swYear;
+document.getElementById("sw_years").textContent = swDiff + "+";
+
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
@@ -151,6 +158,14 @@ if (selectedTheme) {
             qualificationLogo.classList.remove(darkLogo)
         })
     }
+} else {
+    // ✅ Default to dark
+    document.body.classList.add(darkTheme)
+    themeButton.classList.add(iconTheme)
+
+    qualificationLogos.forEach((qualificationLogo) => {
+        qualificationLogo.classList.add(darkLogo)
+    })
 }
 
 
