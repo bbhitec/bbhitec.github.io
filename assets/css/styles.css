@@ -590,8 +590,7 @@ img {
 .about__img {
   width: 100%;
   border-radius: .7rem;
-  justify-self: center;
-  align-self: center;
+  text-align: center;
 }
 
 .about__description {
@@ -1225,6 +1224,7 @@ img {
 
   .about__img {
     width: 350px;
+    text-align: center;
   }
 
   .about__description {
